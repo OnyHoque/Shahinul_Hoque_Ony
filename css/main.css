@@ -126,7 +126,7 @@ nav{
 }
 
 .paper{
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .quadcopter{
@@ -151,4 +151,12 @@ nav{
     margin: 20px;
     background: black;
     color: white;
+}
+
+.f_color{
+    color:#DDDDDD;
+}
+
+.f_color:hover{
+    color:Black;
 }
