@@ -91,6 +91,10 @@ nav{
     }
 }
 
+.text_just{
+    text-align: justify;
+  text-justify: inter-word;
+}
 
 
 
@@ -118,7 +122,7 @@ nav{
 }
 
 .para_{
-    margin-top: 60px;
+    margin-top: 150px;
 }
 
 .paper{
@@ -132,4 +136,19 @@ nav{
 
 .project_img{
     width: 100%;
+    opacity: 0.1;
+    transition-delay: 0.1s;
+    transition: 2s ease-in-out 0s;
+}
+
+.project_img:hover{
+    opacity: 1;
+    transition: 0.5s ease-in-out 0s;
+}
+
+.prj_margin{
+    padding: 20px;
+    margin: 20px;
+    background: black;
+    color: white;
 }
