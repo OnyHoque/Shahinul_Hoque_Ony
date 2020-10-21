@@ -99,7 +99,7 @@ nav{
 
 
 .mark{
-    background: #333333;
+    background: black3;
 
 }
 
@@ -136,9 +136,12 @@ nav{
 
 .project_img{
     width: 100%;
-    opacity: 0.1;
+    opacity: 0.3;
     transition-delay: 0.1s;
     transition: 2s ease-in-out 0s;
+    border: solid black 2px;
+    margin-bottom: 2px;
+    border-radius: 15px;
 }
 
 .project_img:hover{
@@ -149,8 +152,7 @@ nav{
 .prj_margin{
     padding: 20px;
     margin: 20px;
-    background: black;
-    color: white;
+    background: #FDFDFD;
 }
 
 .f_color{
@@ -158,5 +160,11 @@ nav{
 }
 
 .f_color:hover{
-    color:Black;
+    color: Black;
+}
+
+.project_part{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-color: #FDFDFD; 
 }
